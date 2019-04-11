@@ -1,0 +1,21 @@
+body {
+    background-color: LightGray;
+    margin: 40px auto;
+    max-width: 650px;
+}
+h1 {
+    color: black;
+    font-family: verdanna
+}
+p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 160%
+    border: 1px solid powderblue;
+    margin: 50px solid red;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: powderblue;
+}
