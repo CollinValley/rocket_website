@@ -10,14 +10,14 @@ RUN mkdir src/
 
 RUN echo "fn main() {println!(\"If you see this, the build broke\")}" > src/main.rs
 
-ENV ROCKET_PORT=80
+ENV ROCKET_PORT=8000
 RUN cargo build --release
 
 RUN rm -f target/release/deps/personal_website*
 
 COPY . .
 
-ENV ROCKET_PORT=80
+ENV ROCKET_PORT=8000
 RUN cargo build --release
 RUN cargo install --path .
 
