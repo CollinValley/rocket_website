@@ -2,4 +2,3 @@
 **/*.rs.bk
 Rocket.toml
 /static/collinvalley/*
-/static/dawncronin/*

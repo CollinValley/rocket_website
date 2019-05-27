@@ -1,0 +1,15 @@
+body {
+    background-color: #99ffff;
+    margin: 40px auto;
+    max-width: 650px;
+}
+h1 {
+    color: black;
+    font-family: verdanna
+    font-size: 300%
+}
+p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 160%
+}
